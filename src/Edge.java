@@ -4,7 +4,6 @@ public class Edge {
     public Edge next;
 
     public Edge(int to, int weight) {
-
         this.to = to;
         this.weight = weight;
         this.next = null;
