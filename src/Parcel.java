@@ -1,9 +1,9 @@
 public class Parcel {
-    private int parcelID;
-    private int destinationZone;
-    private int deadline; // in minutes
-    private int orderTime;
-    private int customerPriority; // 1 - low to 5 - high
+    public int parcelID;
+    public int destinationZone;
+    public int deadline; // in minutes
+    public int orderTime;
+    public int customerPriority; // 1 - low to 5 - high
 
     public Parcel(int parcelID, int destinationZone, int deadline, int orderTime, int customerPriority) {
 
